@@ -26,8 +26,6 @@ public class Client {
             catch (IOException e) {
                 throw new RuntimeException(e);
             }
-
-            Thread.sleep(500);
         }
 
     }
